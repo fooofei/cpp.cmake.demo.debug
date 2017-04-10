@@ -1,0 +1,5 @@
+#cmake_minimum_required (VERSION 3.5.1)
+project (test)
+message(${test_SOURCE_DIR})
+message(${test_BINARY_DIR})
+add_executable(test test.cpp)
